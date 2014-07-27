@@ -43,6 +43,17 @@ You may experience an issue with the 'current weather in ...' block if the weath
 Data is obtained from http://openweathermap.org/weather-data#current
 
 
+location.js
+-----------
+Obtain your current longitude and latitude, using your browser's geolocation service.
+
+   * **current latitude** - in degrees north or south of equator. Range is -90 to +90.
+   * **current longitude** - in degrees west or east of the Greenwich meridian. Range is -180 to 180.
+
+Hint: use a Equirectangular projected map if you want to place a sprite on a world map.
+http://en.wikipedia.org/wiki/Equirectangular_projection
+
+
 
 ----
 

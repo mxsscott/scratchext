@@ -1,6 +1,7 @@
 // weather.js
 // Mark Scott (@markscott00), July 2014
 // Obtain current weather data.
+// Extended from weather extension example here: http://llk.github.io/scratch-extensions/
 //
 (function(ext) {
     var api="http://api.openweathermap.org/data/2.5/weather?q=";
