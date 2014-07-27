@@ -16,7 +16,7 @@ Importing
 ---------
 This is done via a hidden UI that can be accessed by shift-clicking on the *File* menu within Scratch 2.0.  The *'Import Extension'* item will present a dialog to input a URL for loading a javascript extension.  The javascript file currently must be hosted by a web server for Scratch to load it.  This works in the current online version of Scratch. 
 
-You can use the 'raw' view of the file on GitHub to get a URL that is importable, without downloading and hosting it on your own server.
+For some reason Scratch doesn't like the importing the raw files hosted via GitHub's HTTPS server, so I've also hosted it on my own. Paths are under each extension below:
 
 Extensions
 ==========
@@ -25,5 +25,10 @@ comment.js
 ----------
 Provides various blocks that allow free text comments to be added, in-line with the existing blocks - anywhere a 'Command' block can be placed.
 
-Location: https://raw.githubusercontent.com/mxsscott/scratchext/master/exts/comment.js
+Location: http://mscott.cx/scratchext/exts/comment.js
 
+
+
+
+
+Author: Mark Scott (Twitter: @markscott00)
