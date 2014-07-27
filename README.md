@@ -28,7 +28,22 @@ Provides various blocks that allow free text comments to be added, in-line with 
 Location: http://mscott.cx/scratchext/exts/comment.js
 
 
+weather.js
+----------
+Provides various blocks to obtain the current weather in a location.
+
+   * **current temperature in ...** - temperature in Celsius. Hint: apply the 'round' operator to the result.
+   * **current wind speed in ...** - wind speed.
+   * **current wind direction in ...** - wind direction (degrees, meteorological)
+   * **current cloud coverage in ...** - cloud coverage as a number 0..100 (percent)
+   * **current weather in ...** - primary weather condition, e.g. 'Rain' (do you expect anything else?)
+
+You may experience an issue with the 'current weather in ...' block if the weather is exceptionally nice. I'm not sure what it does when it's sunny with no chance of gales, rain, snow, clouds or tornados.
+
+Data is obtained from http://openweathermap.org/weather-data#current
 
 
+
+----
 
 Author: Mark Scott (Twitter: @markscott00)
