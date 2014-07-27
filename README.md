@@ -42,6 +42,8 @@ You may experience an issue with the 'current weather in ...' block if the weath
 
 Data is obtained from http://openweathermap.org/weather-data#current
 
+Location: http://mscott.cx/scratchext/exts/weather.js
+
 
 location.js
 -----------
@@ -53,6 +55,7 @@ Obtain your current longitude and latitude, using your browser's geolocation ser
 Hint: use a Equirectangular projected map if you want to place a sprite on a world map.
 http://en.wikipedia.org/wiki/Equirectangular_projection
 
+Location: http://mscott.cx/scratchext/exts/location.js
 
 
 ----
